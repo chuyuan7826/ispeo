@@ -16,6 +16,7 @@ Requires Python 3.9+. It is recommended to use a virtual environment.
 ```bash
 # Clone the repository
 git clone https://github.com/chuyuan7826/ispeo.git
+cd ispeo
 
 # Create and activate a virtual environment
 python3 -m venv .venv
