@@ -1,0 +1,5 @@
+X: 0.5    # Biomass [g/L]
+S: 20.0   # Substrate [g/L]
+P: 0.0    # Product [g/L]
+B: 0.0    # By-product [g/L]
+V: 1.0    # Volume [L]

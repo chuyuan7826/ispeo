@@ -1,0 +1,24 @@
+# Parameter initialization for fitting
+# Format: parameter_name: [initial_guess, min_bound, max_bound]
+# Parameters not included in the file you pass to the program will be alterable
+
+# Kinetic Parameters
+mu_max: [0.6, 0.1, 1.2]    # Maximum specific growth rate [h^-1]
+Ks: [0.1, 0.01, 1.0]       # Substrate half-saturation constant [g/L]
+Kb: [5.0, 0.1, 20.0]       # Product/By-product inhibition constant [g/L]
+Ks_p: [0.5, 0.01, 5.0]     # Substrate half-saturation for product [g/L]
+Y_xs: [0.5, 0.1, 0.8]      # Biomass yield from substrate [g/g]
+Y_ps: [0.2, 0.0, 0.6]      # Product yield from substrate [g/g]
+Y_bx: [0.1, 0.0, 0.5]      # By-product yield from biomass [g/g]
+ms: [0.05, 0.0, 0.2]       # Maintenance coefficient [g/g/h]
+q_bd: [0.01, 0.0, 0.1]     # By-product degradation rate [h^-1]
+q_p: [0.02, 0.0, 0.2]      # Specific product formation rate [h^-1] (if constant)
+alpha: [0.1, 0.0, 1.0]     # Growth-associated product formation coeff [-]
+beta: [0.02, 0.0, 0.2]     # Non-growth-associated product formation coeff [h^-1]
+
+# Operational Parameters
+Sf: [500.0, 200.0, 800.0]  # Feed substrate concentration [g/L]
+ti: [12.0, 4.0, 24.0]      # Induction time [h]
+k1: [0.01, 0.0, 0.1]       # Feed rate slope (growth phase) [L/h^2]
+b: [0.005, 0.0, 0.05]      # Initial feed rate [L/h]
+k2: [0.0, -0.05, 0.05]     # Feed rate slope (production phase) [L/h^2]

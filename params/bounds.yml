@@ -1,0 +1,5 @@
+ti: [0.0, 48.0]   # Induction time [h]
+k1: [0.0, 0.1]    # Feed slope growth phase [L/h^2]
+k2: [-0.1, 0.1]   # Feed slope production phase [L/h^2]
+b: [0.0, 0.05]    # Initial feed rate [L/h]
+Sf: [200.0, 800.0] # Feed substrate concentration [g/L]

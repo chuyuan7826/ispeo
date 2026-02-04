@@ -1,0 +1,20 @@
+# kinetic:
+mu_max: 0.6      # h^-1
+Ks: 0.1          # g/L
+Kb: 5.0          # g/L
+Ks_p: 0.5        # g/L
+Y_xs: 0.5        # g/g
+Y_ps: 0.2        # g/g
+Y_bx: 0.1        # g/g
+ms: 0.05         # h^-1
+q_p: 0.02        # h^-1 (Specific product synthesis rate, can be calculated or constant)
+q_bd: 0.01       # h^-1 (By-product degradation rate)
+alpha: 0.1       # growth-associated coefficient
+beta: 0.02       # non-growth-associated coefficient [h^-1]
+
+# operation:
+Sf: 500.0        # g/L (Feed substrate concentration)
+ti: 12.0         # h (Induction time)
+k1: 0.01       # L/h^2 (Growth phase slope)
+b: 0.005       # L/h (Initial feeding rate)
+k2: 0.0        # L/h^2 (Production phase slope)
